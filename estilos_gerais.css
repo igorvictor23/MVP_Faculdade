@@ -1,0 +1,204 @@
+@charset "UTF-8";
+/* Estilos gerais para o front-end MVP */
+
+body{
+    background-image: url("imagens/pexels-allan-carvalho-264847051-30337556.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+
+
+
+.lista_atracoes{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.grid_principal{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 70px;
+    height: 100vh;
+}
+
+.grid_header{
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-items: stretch;
+    align-items: center;
+    grid-template-columns: auto 1fr;
+    background-color: rgba(199, 199, 199, 0.7);
+    height: 150px;
+    padding-right: 20px;
+}
+
+.logo_site{
+    width: 170px;
+    height: 100px;
+}
+
+.flex_menu_header{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: end;
+    list-style: none;   
+}
+
+.opcoes_menu_header{
+    font-size: 1.5em;
+    background-color: rgba(141, 186, 180, 0.5);
+    border-radius: 5px;
+    padding: 8px 15px;
+    border: 2px solid rgba(0,0,0, 0.7);
+    text-decoration: none;
+    color: #000;
+    
+}
+
+.grid_conteudos{
+    display: grid;
+    max-width: 1100px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: auto auto;
+    gap:1px;
+}
+
+.grid_conteudo_principal{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px;
+    background-color: rgba(141, 186, 180, 0.7);
+    
+}
+
+.apresentacao{
+    grid-column: 1 / -1;
+    text-align: center;
+    font-size: 35px;
+}
+
+.descricao{
+    color: #000;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.titulo_atracoes{
+    background-color: rgba(141, 186, 180, 0.7);
+    text-align: center;  
+}
+
+.lista_atracoes{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px; 
+    font-size: 18px; 
+}
+
+.grid_artigos{
+    display: grid;
+    grid-template-columns: minmax(200px,500px) 1fr;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.foto_parques{
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+} 
+
+.grid_texto_parques{
+            display: grid;
+            background-color: rgba(199, 199, 199, 0.7);
+            padding: 20px;
+            gap: 10px;
+            border-radius: 10px;
+            font-weight: bold;
+            
+}
+
+
+.grid_texto_parques h2{
+        text-align: center;
+        margin: 0px;
+}
+
+.botao_parques{
+    justify-self: end;
+    background-color: rgba(46, 139, 87, 0.8);
+    padding: 10px 20px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;  
+}
+
+.botao_parques a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+.titulo_atracoes p{
+    padding-top: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 18px;
+    color: #000;
+    margin: 0;
+    padding-bottom: 0px;
+}   
+
+
+.footer {
+        background-color: #2e8b57; /* Substitua pela cor do seu .menu_header se for diferente */
+        opacity: 0.8; /* Opacidade de 80% */
+        color: #fff;
+        text-align: center;
+        padding: 16px 0;
+        margin-top: 40px;
+        font-size: 1rem;
+        letter-spacing: 1px;
+    }
+    
+.footer-content {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .footer-links {
+        list-style: none;
+        padding: 0;
+        margin: 10px 0 0 0;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .footer-links li {
+        display: inline;
+    }
+
+    .footer-links a {
+        color: #fff;
+        text-decoration: none;
+        transition: color 0.2s;
+    }
+
+    .footer-links a:hover {
+        color: #a5d6a7;
+    }    
+    

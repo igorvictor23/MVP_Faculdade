@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos_gerais.css">
+    <link rel="stylesheet" href="estilos_login.css">
+    <link rel="shortcut icon" href="imagens/favicon_montanha.png" type="image/x-icon">
+    <title>Login - Terê Verde Online</title>
+</head>
+<body>
+<div class="grid_principal">
+        <div class="grid_header">
+            <img  class="logo_site" src="imagens/tereverde_logo.png" alt="">
+             <ul class="flex_menu_header">
+                 <li><a class="opcoes_menu_header" href="index.html">Home</a></li>
+                 <li><a class="opcoes_menu_header" href="sobre.html">Sobre</a></li>
+                 <li><a class="opcoes_menu_header" href="login.html">Login</a></li>
+                 <li><a class="opcoes_menu_header" href="contato.html">Contato</a></li>
+             </ul>
+        </div>
+
+
+    <div class="login-container">
+        <form class="login-form" action="#" method="post">
+            <h2>Login</h2>
+            <label for="usuario">Usuário</label>
+            <input type="text" id="usuario" name="usuario" required>
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" name="senha" required>
+            <button type="submit">Entrar</button>
+        </form>
+    </div>
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Terê Verde Online. Todos os direitos reservados.</p>
+            <ul class="footer-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <script>
+            window.onload = function() {
+                alert("Essa área é somente para Administradores");
+            };
+        </script>
+        </footer>
+        </div>
+        </body>
+        </html>

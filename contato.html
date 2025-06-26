@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos_gerais.css">
+    <link rel="stylesheet" href="estilos_contato.css">
+    <link rel="shortcut icon" href="imagens/favicon_montanha.png" type="image/x-icon">
+    <title>Contato - Terê Verde Online</title>
+</head>
+<body>
+<div class="grid_principal">
+        <div class="grid_header">
+            <img  class="logo_site" src="imagens/tereverde_logo.png" alt="">
+             <ul class="flex_menu_header">
+                 <li><a class="opcoes_menu_header" href="index.html">Home</a></li>
+                 <li><a class="opcoes_menu_header" href="sobre.html">Sobre</a></li>
+                 <li><a class="opcoes_menu_header" href="login.html">Login</a></li>
+                 <li><a class="opcoes_menu_header" href="contato.html">Contato</a></li>
+             </ul>
+        </div>
+
+    <div class="form"><h1>Fale conosco</h1>
+              <p class="info">Se você tiver alguma dúvida, sugestão ou quiser compartilhar sua experiência em Teresópolis, entre em contato conosco preenchendo o formulário abaixo. Estamos aqui para ajudar!</p>
+                        <form class="contato-form">
+                            <label for="nome">Nome:</label>
+                            <input type="text" id="nome" name="nome" required>
+
+                            <label for="email">E-mail:</label>
+                            <input type="email" id="email" name="email" required>
+
+                            <label for="mensagem">Mensagem:</label>
+                            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+                            <button type="submit">Enviar</button>
+                        </form>
+           
+                         <div id="mensagem-sucesso" style="display:none; color: green; text-align: center; margin-top: 20px; background-color: rgba(199, 199, 199, 0.7); padding: 20px; font-weight: bold;">
+        Mensagem enviada com sucesso! Obrigado pelo contato.
+    </div>
+    <script>
+    document.querySelector('.contato-form').addEventListener('submit', function(event) {
+        event.preventDefault();
+        document.getElementById('mensagem-sucesso').style.display = 'block';
+        this.reset();
+        setTimeout(function() {
+            document.getElementById('mensagem-sucesso').style.display = 'none';
+        }, 4000);
+    });
+    </script>
+       </div>
+       
+       
+   
+    </script>
+   
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Terê Verde Online. Todos os direitos reservados.</p>
+            <ul class="footer-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+    </footer>
+    </div>
+   
+    </body>
+    </html>

@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+h1{
+    text-align: center;
+}
+
+.requisitos{
+    margin-left: 20px;
+}
+
+h3{
+    margin-left: 10px;
+}
+
+
+body{
+    margin: 0px;
+
+}
+
+.nome{
+    font-weight: bold;
+    
+}
+
+td{
+    padding: 12px 20px;
+    }

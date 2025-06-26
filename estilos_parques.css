@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+.grid_conteudo_parque{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.grid_info_parques{
+    background-color: rgba(199, 199, 199, 0.7);
+    text-align: center;
+}
+
+.espacos_listas{
+    margin-bottom: 10px;
+}
+
+.grid_info_parques a{
+    text-decoration: none;
+}
+
+.video_parques{
+    background-color: rgba(199, 199, 199, 0.7);
+    max-width: 700px;
+    text-align: center;
+    justify-self: center;
+}
+
+iframe{
+    margin-left: 20px;
+    margin-right: 20px;   
+}
