@@ -53,3 +53,12 @@
     background-color: #246b45;
 }
 
+.grid_principal {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-container {
+  flex: 1;
+}
